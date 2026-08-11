@@ -10,6 +10,7 @@ class OuroborosAi < Formula
   depends_on "rust" => :build
 
   depends_on "certifi"
+  depends_on "openssl@3"
   depends_on "python@3.13"
 
   on_linux do
